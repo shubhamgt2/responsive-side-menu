@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Responsive Side Menu</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div id="top-nav">
+                <span id="menu-icon-open"><a onClick="onOpenSideMenu()" href="#"><img width="40"; height="40" src="menu-icon.svg" /></a></span>
+                <ul class="top-nav">
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 2</a></li>
+                    <li><a href="#">Link 3</a></li>
+                    <li><a href="#">Link 4</a></li>
+                    <li><a href="#">Link 5</a></li>
+                </ul>
+            </div>
+            <div class="clear-float"></div>
+            <div id="side-nav">
+                <span id="menu-icon-close"><a onClick="onCloseSideMenu()" href="#">&times;</a></span>
+                <div class="clear-float"></div>
+                <ul class="side-nav">  
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 2</a></li>
+                    <li><a href="#">Link 3</a></li>
+                    <li><a href="#">Link 4</a></li>
+                    <li><a href="#">Link 5</a></li>
+                </ul>
+            </div>
+        </header>
+        <div id="main">
+            <h1>Responsive Side Menu</h1>
+        </div>
+        <footer>
+            <p>&copy; Responsive Side Menu</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
